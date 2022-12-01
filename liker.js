@@ -42,29 +42,3 @@ function likes(name)
 
 likes('fans');
 likes('junior');
-
-
-
-
-
-const fans = ['james','victor','clinton','sani','paul','george','fred'];
-
-function clicks (){
-    //  create container
-    let feedback;
-    //  loop through arr
-    // while counter < arr.length
-    let counter = 0;
-    while (counter < fans.length)
-    {
-        // container = call function
-        feedback = likes(fans)
-        console.log(feedback)
-        
-        // increment counter
-        counter++;
-    }
-    // console.log(feedback)
-}
-
-// clicks();
